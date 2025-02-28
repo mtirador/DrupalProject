@@ -1,6 +1,6 @@
-# DrupalProject
 
-![Drupal](https://upload.wikimedia.org/wikipedia/commons/3/32/Drupalcon_Pfhalloween_%28cropped%29.jpg)
+![Drupal Wordmark](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Drupal-wordmark.svg/750px-Drupal-wordmark.svg.png)
+
 
 This project is a **Drupal** implementation ready for local deployment and development using **Wodby** and **Docker**.
 
@@ -24,18 +24,16 @@ If you haven't cloned the repository yet, start by doing so. Open your terminal 
 ```sh
 git clone https://github.com/mtirador/DrupalProject.git
 cd DrupalProject
-
+```
 ---
 
-# **Install the dependencies**
-
+## **Install the dependencies**
 ```sh
 composer install
-
+```
 ---
 
-#  **Run the following command to bring up the containers**
-
-
+##  **Run the following command to bring up the containers**
 ```sh
 docker compose up -d
+```
